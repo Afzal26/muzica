@@ -20,4 +20,5 @@ urlpatterns = [
     path('',include('fontend.urls')),
     path('api/',include('api.urls')),
     path('admin/', admin.site.urls),
+    path('spotify/',include('spotify.urls')),
 ]
